@@ -1,8 +1,8 @@
-use std::error::Error;
-use std::collections::HashMap;
 use reqwest;
 use serde_json;
 use serde_json::Value;
+use std::collections::HashMap;
+use std::error::Error;
 
 pub struct SonnenReader<'a> {
     url: &'a str,
