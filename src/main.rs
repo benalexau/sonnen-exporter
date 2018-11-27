@@ -61,6 +61,6 @@ fn main() {
             .resource("/", |r| r.f(index))
             .resource("/metrics", |r| r.f(metrics))
     }).bind(addr)
-        .unwrap()
-        .run();
+    .unwrap()
+    .run();
 }
