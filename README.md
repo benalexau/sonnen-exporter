@@ -10,3 +10,7 @@ sonnen-exporter [config_file]
 ```
 
 The format of `config_file` is shown in the `etc` directory.
+
+Arch Linux users can install the
+[sonnen-exporter-git](https://aur.archlinux.org/packages/sonnen-exporter-git/)
+package from AUR for a security-focused systemd unit with minimal permissions.
